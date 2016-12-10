@@ -1,0 +1,79 @@
+body {
+  background-color: #9966ff;
+  color: #000;
+  font-size: large;
+}
+
+.topnav {
+  border: 5px solid black;
+  width: 100%;
+  background-color: blue;
+  top: 0px;
+  position: fixed;
+  display: block;
+}
+
+#Contact {
+  background-color: #336600;
+  border: 5px solid black;
+  text-align: center;
+  color: #000000;
+}
+
+#Portfolio {
+  background-color: #800000;
+  border: 5px solid black;
+  text-align: center;
+  color: #000000;
+}
+
+#About {
+  background-color: #cc00cc;
+  color: #000000;
+  border: 5px solid black;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #1155ee;
+  color: #000;
+}
+
+div.sample {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 350px;
+ 
+}
+
+.rightSide {
+  float: right;
+}
+
+div.sample img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
